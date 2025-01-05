@@ -142,6 +142,7 @@ body{
     }
     .movies{
         grid-template-columns: 45% 45% 45% 45%;
+        justify-content: space-between;
         overflow: scroll;
     }
     ::-webkit-scrollbar {
