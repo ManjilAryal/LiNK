@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - LINK</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="Adobe_Express_20250103_2009300_1.png" width="100%" alt="">
+        </div>
+        <div class="select-button">
+            Y
+        </div>
+    </div>
+    <div class="content">
+        <div class="2024">
+           <div class="title">
+            <p class="year">2024</p>
+            <button class="more">
+                <a href="2024.html">MORE</a>
+            </button>
+           </div>
+
+            <div class="movies">
+                <div class="movies-box">
+                    <a href="laapata ladies.html">
+                        <img src="laapaataa ladies.jpg" width="100%" alt="">
+                    </a>
+                </div>
+                <div class="movies-box">
+                    <a href="kill.html">
+                        <img src="kill.jpg" width="100%" alt="">
+                    </a>
+                </div><div class="movies-box">
+                    <a href="shaitaan.html">
+                        <img src="shaitaan.jpg" width="100%" alt="">
+                    </a>
+                </div><div class="movies-box">
+                    <a href="maidaan.html">
+                        <img src="maidaan.jpg" width="100%" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="select">
+        <div class="back">
+            <button class="backbutton">X</button>
+        </div>
+        <p style="margin-top: 2%;">SELECT A RELEASED YEAR OF MOVIE</p>
+        <div class="yearoption">
+            <a href="2025.html">2025</a>
+        </div>
+        <div class="yearoption">
+            <a href="2024.html">2024</a>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".select-button").addEventListener("click",()=>{
+            document.querySelector(".select").classList.toggle("active");
+        });
+        document.querySelector(".backbutton").addEventListener("click",()=>{
+            document.querySelector(".select").classList.toggle("active");
+        })
+    </script>
+</body>
+</html>
